@@ -1,4 +1,8 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
 .montserrat-normal{
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -9,9 +13,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0 200px;
 }
-.text-promary{
+.text-primary{
     color:#FD6E0A ;
 
 }
@@ -24,6 +28,8 @@ nav ul li,a{
     text-decoration: none;
     color: rgb(0, 4, 4);
     font-size: 20px;
+    padding: 5px;
+    text-align: right;
 }
 nav ul{
     display: flex;
@@ -64,5 +70,99 @@ nav ul{
     background-image: url(portfolio-resources/images/developer.png), url(portfolio-resources/images/header_bg.png);
     background-position: top left, bottom right;
     background-repeat: no-repeat;
+    background-color: #fff8f3;
+    
+
+}
+/*main start*/
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.about{
+    border-radius: 10px;
+    padding: 10px 150px;
+    text-align: center;
+    
+}
+main{
+    margin: 0 auto;
+    max-width: 1140px;
+    background-color: #fff8f3;
+    margin-top: 130px;
+}
+main section{
+    margin-top:130px ;
+    margin-bottom: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+
+}
+.item-description{
+    font-weight: 600;
+    
+}
+.skills{
+    text-align: center;
+    padding:30px;
+    box-shadow: 0px 6px 50px rgba(0,0,0,0.06);
+    border-radius:5px ;
+}
+.skills-container{
+display: flex;
+gap: 24px;
+}
+.skill-description{
+
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-description{
+    color: #757575;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.text-center{
+    text-align: center;
+    margin-top: 50px ;
+}
+footer{
+    background-color:#fff8f3 ;
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-colum{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius:5px ;
+    background-color: white;
+    color: #181818;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
 
 }
